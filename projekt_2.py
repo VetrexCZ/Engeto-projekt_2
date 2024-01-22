@@ -80,6 +80,8 @@ def main():
                 elapsed_time = end_time - start_time
                 total_guesses.append(guesses)
                 print_result(guesses, elapsed_time)
+                print("Game is over!")
+                quit()
             
 if __name__ == "__main__":
     main()            
