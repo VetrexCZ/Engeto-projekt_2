@@ -14,6 +14,8 @@
 
 >Uživatel během hry může kdykoliv ukončit program napsáním písmena `"q"`
 
->Program dále vypíše počet `bull/bulls` (pokud uživatel uhodne jak číslo, tak jeho umístění), příp. `cows/cows` (pokud uživatel uhodne pouze číslo, ale ne jeho umístění). Vrácené ohodnocení musí brát ohled na jednotné a množné číslo ve výstupu. Tedy 1 bull a 2 bulls (stejně pro cow/cows).
+>Program vypíše počet `bull/bulls` (pokud uživatel uhodne jak číslo, tak jeho umístění), příp. `cows/cows` (pokud uživatel uhodne pouze číslo, ale ne jeho umístění).
 
+>Ke konci hry Program reaguje a píše uživateli zprávy podle počtu pokusů jako: 1 pokus: `"That's amazing!"` nebo 7+ pokusů: `"Not so good."`.
 
+> Obsahuje takové detaily jako počet množství pokusu, měření času atd.
