@@ -29,6 +29,10 @@ def get_user_input():
     while True:
         user_input = input("Enter a 4-digit number: ")
 
+        if user_input.lower() == "q":
+            print("Game terminated by user.")
+            exit()
+
         if not user_input.isdigit() or len(user_input) \
         != 4 or len(set(user_input)) != 4 or user_input[0] == "0":
             print("Invalid input. Please enter a valid 4-digit number.")
